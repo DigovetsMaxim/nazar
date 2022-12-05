@@ -1,0 +1,126 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1230px) {
+
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1200px) {
+
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 800px) {
+/* Small Devices, Tablets */
+
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 650px) {
+/* Extra Small Devices, Phones */
+
+
+h1{
+  margin-left: 15px;
+}
+
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 500px) {
+.my-gallery img {
+    width: 400px;
+/*    height: auto;*/
+}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 430px) {
+.my-gallery img {
+    width: 350px;
+
+}
+
+
+.contact1 .tel1{
+  padding-right: 15px;
+}
+.contact1 .mail1{
+  padding-left: 0px;
+}
+
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 380px) {
+.my-gallery img {
+    width: 320px;
+
+}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 347px) {
+.my-gallery img {
+    width: 300px;
+
+}
+footer{
+	height: 130px;
+	background: #021542;
+}
+
+.contact1{
+	justify-content: left; 
+  padding: 20px 0 5px 0;
+  color: grey;
+}
+
+.contact1 .tel1{
+  padding-left: 25px;
+}
+.contact1 .mail1{
+  padding-left: 25px;
+}
+
+
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.my-gallery img {
+    width: 280px;
+
+}
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 350px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 640px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 800px) {
+
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+
+
+
