@@ -6,25 +6,12 @@ html{
 *::after{
   box-sizing: inherit;
 }
-
-body{
-  font-family: 'Lato', sans-serif;
-/*  font-family: 'Roboto', sans-serif;*/
-}
-
-
-
-
-
-
-
 body{
   background-image: url(../img/bg.png);
- /* background: #aaa;*/
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
 }
-
 nav{
   background: #021542;
   text-align: center;
@@ -36,7 +23,6 @@ ul{
 li{
   display: inline-block;
 }
-
 nav a{
   display: block;
   color: #fff;
@@ -48,17 +34,12 @@ nav a{
 }
   nav a:hover{
     color: #fff;
-    /*background: #FF534B;*/
     background: #790ccc;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset, 0px 1px 0px rgba(255, 255, 255, 0.1);
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-  
 }
-
 .menu-trigger{
   color: #fff;
-/*  color: #790ccc;*/
-/*  color: #FF534B;*/
   font-weight: bold;
   display: none;
   }
@@ -71,28 +52,18 @@ nav a{
   ul{
     display: none;
   }
-  
   li{
     display: block;
   }
-
   .menu-trigger{
     display: block;
   }
 }
-
-
 .main{
-/*  background-image: url(../img/bg4.png);*/
-/*  background-image: url(../img/bg3.jpg);
-*//*  opacity: 0.1;*/
   color: #021542;
   font-size: 18px;
   padding: 15px 0 0 0;
   text-align: center;
-
-}
-.text1{
 }
 .contact{
   padding-top: 15px;
@@ -100,14 +71,11 @@ nav a{
 .main a{
   text-decoration: none;
 }
-
-
-
 .my-gallery {
   padding-top: 10px;
-   display: flex;
-   flex-flow: row wrap;
-   justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 .viber{
   margin-top: 10px;
@@ -129,22 +97,17 @@ nav a{
 .my-gallery figure {
   margin: 0;
   padding: 8px 10px;
-/*  width: 400px;*/
 }
-
 .my-gallery figcaption {
   display: none;
-
 }
-
 .pswp__caption__center{
     text-align: center;
     font-size: 22px;
     padding: 0px 0 30px 0;
     line-height: 25px;
     color: #CCC;
-    }
-
+}
 .map{
   text-align: center;
   margin-top: 35px;
@@ -152,8 +115,6 @@ nav a{
 .map .text{
   padding-bottom: 15px;
 }
-
-
 .text{
   text-align: center;
   padding-top: 35px;
@@ -162,18 +123,13 @@ nav a{
   font-family: 'Lato', sans-serif;
   color: #021542;
 }
-
-
 .map{
   padding-bottom: 25px;
 }
-
-
 footer{
   background: #021542;
   height: 90px;
 }
-
 .contact1{
   padding: 20px 0 5px 0;
   font-family: 'Lato', sans-serif;
@@ -192,11 +148,7 @@ footer{
 .contact1 .mail1{
   padding-left: 25px;
 }
-
-
-
-/*                                                            top*/
-
+/*                                top*/
 .to_top{
   position: fixed;
   bottom: 30px;
@@ -205,5 +157,4 @@ footer{
 }
   .to_top img{
     width: 55px;
-
 }
